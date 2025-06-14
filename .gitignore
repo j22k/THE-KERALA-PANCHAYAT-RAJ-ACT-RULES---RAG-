@@ -23,5 +23,5 @@ Thumbs.db
 
 
 #ignore vector index
-.pkl
-.bin
+*.pkl
+*.bin
