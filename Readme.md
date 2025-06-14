@@ -60,7 +60,7 @@ An elegant AI-powered assistant that helps citizens understand Kerala Panchayat 
 
 5. **Launch the application:**
    ```bash
-   streamlit run app.py
+   streamlit run main.py
    ```
 
 6. **Open your browser:**
