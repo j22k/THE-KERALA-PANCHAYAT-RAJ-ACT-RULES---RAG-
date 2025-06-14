@@ -1,0 +1,27 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+kerala_panchayat_rag_env/
+.environment
+ENV/
+*.env
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
+#ignore vector index
+.pkl
+.bin
