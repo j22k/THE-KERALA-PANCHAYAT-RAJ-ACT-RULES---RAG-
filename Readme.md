@@ -35,7 +35,7 @@ An elegant AI-powered assistant that helps citizens understand Kerala Panchayat 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/kerala-panchayat-assistant.git
+   git clone https://github.com/j22k/kerala-panchayat-assistant.git
    cd kerala-panchayat-assistant
    ```
 
@@ -71,14 +71,20 @@ An elegant AI-powered assistant that helps citizens understand Kerala Panchayat 
 Create a `requirements.txt` file with these dependencies:
 
 ```txt
+--index-url https://download.pytorch.org/whl/cu118
+
+torch
+torchvision
+torchaudio
+
+groq>=0.28.0
+faiss-cpu>=1.7.0  
+sentence-transformers>=2.2.0
+langchain>=0.1.0
+PyPDF2>=3.0.0
 streamlit>=1.28.0
-faiss-cpu>=1.7.4
-sentence-transformers>=2.2.2
-groq>=0.4.0
-python-dotenv>=1.0.0
-numpy>=1.24.0
-pickle-mixin>=1.0.2
-torch>=2.0.0
+numpy>=1.21.0
+
 ```
 
 For CUDA support (optional):
